@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bizagi", "Bizagi\Bizagi.csproj", "{71654A55-6D18-4451-A2FA-86D7CDE5CD0D}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mariobot.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Bizagi\\Bizagi.csproj
+		SccProjectName1 = Bizagi
+		SccLocalPath1 = Bizagi
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 659786d1-d241-4277-b033-4cf1f1045628
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71654A55-6D18-4451-A2FA-86D7CDE5CD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71654A55-6D18-4451-A2FA-86D7CDE5CD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71654A55-6D18-4451-A2FA-86D7CDE5CD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71654A55-6D18-4451-A2FA-86D7CDE5CD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

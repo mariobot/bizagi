@@ -1,0 +1,20 @@
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\Bizagi.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\Bizagi.pdb
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\EntityFramework.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\System.Web.Providers.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\EntityFramework.xml
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\es\EntityFramework.resources.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\bin\es\System.Web.Providers.resources.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\obj\Debug\Bizagi.dll
+c:\users\mabotero\documents\visual studio 2012\Projects\Bizagi\Bizagi\obj\Debug\Bizagi.pdb
+C:\Users\mabotero\Documents\Visual Studio 2012\Projects\Bizagi\Bizagi\obj\Debug\Bizagi.csprojResolveAssemblyReference.cache
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\Bizagi.dll.config
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\Bizagi.dll
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\Bizagi.pdb
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\EntityFramework.xml
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\es\EntityFramework.resources.dll
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\bin\es\System.Web.Providers.resources.dll
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\obj\Debug\Bizagi.csprojResolveAssemblyReference.cache
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\obj\Debug\Bizagi.dll
+C:\Users\Desefarming\Desktop\Bizagi\Bizagi\obj\Debug\Bizagi.pdb

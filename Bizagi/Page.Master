@@ -1,0 +1,143 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="Bizagi.Page" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bizagi Test</title>
+    <script src="Scripts/jquery-2.1.1.js"></script>
+    <style type="text/css">
+        body
+        {
+            margin: 0 auto;
+            width: 800px;
+        }
+
+        section
+        {
+            display: block;
+        }
+
+            section#articles
+            {
+                width: 540px;
+                min-height: 400px;
+                float: left;
+                padding: 10px;
+                background-color: #fbf0cc;
+            }
+
+        article > header
+        {
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        aside
+        {
+            float: left;
+            width: 200px;
+            padding: 10px;
+        }
+
+        footer
+        {
+            overflow: hidden;
+            clear: both;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav li
+        {
+            float: left;
+            width: 100px;
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+        }
+
+        nav ul
+        {
+            list-style: none;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            background-color: #424242;
+        }
+
+        a
+        {
+            color: #65ac1c;
+        }
+
+        nav li a
+        {
+            color: #fff;
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="font: 75% Lucida Grande, Trebuchet MS">
+    <form id="form1" runat="server">
+        <header>
+            <hgroup>
+                <h1>Bizagi</h1>
+            </hgroup>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="Page1.aspx">Cargar Archivo</a></li>
+                <li><a href="Page2.aspx">Verificar Archivo</a></li>
+                <li><a href="documentation.aspx">Documentacion</a></li>
+                <li><a href="about.aspx">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="articles">
+            <article>
+                <header>
+                    <h2><a href="#">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolderName" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </a></h2>
+                </header>
+                <section>
+                    <asp:ScriptManager runat="server" />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder" runat="server">
+                        <asp:UpdatePanel runat="server">
+                            <ContentTemplate>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                    </asp:ContentPlaceHolder>
+                </section>
+            </article>
+        </section>
+        <aside>
+            <h2>Archivos Cargados</h2>
+            <asp:Panel runat="server" ID="listFiles">
+                <asp:GridView ID="gvFiles" runat="server" AutoGenerateColumns="false" EmptyDataText="No Hay archivos..">
+                    <Columns>
+                        <asp:BoundField DataField="Text" HeaderText="Nombre Archivo" />
+                        <asp:TemplateField>
+                            <ItemTemplate>
+                                <asp:LinkButton ID="lnkSelect" Text="Select" runat="server" CommandArgument='<%#Eval("Value")%>' OnClick="lnkSelect_Click" />
+                                <asp:LinkButton ID="lnkDownload" Text="Download" CommandArgument='<%# Eval("Value") %>' runat="server" OnClick="lnkDownload_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnkDelete" Text="Delete" CommandArgument='<%# Eval("Value") %>' runat="server" OnClick="lnkDelete_Click" />
+                            </ItemTemplate>
+                        </asp:TemplateField>
+                    </Columns>
+                </asp:GridView>
+                <br />
+                <asp:Button Text="Refrescar Lista" ID="btnRefreshList" runat="server" OnClick="btnRefreshList_Click" />
+            </asp:Panel>
+        </aside>
+        <footer>
+            Developed by <a href="https://about.me/mariobot" target="_blank">@MaRioBoT</a> (Mario A Botero) <a href="mailto:mariobot113@hotmail.com">mariobot113@hotmail.com</a>
+        </footer>
+
+    </form>
+</body>
+</html>
